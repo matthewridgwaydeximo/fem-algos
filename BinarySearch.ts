@@ -1,11 +1,9 @@
-function bs_list(haystack: number[], needle: number): boolean {
+function bsList(haystack: number[], needle: number): boolean {
     let lo = 0;
     let hi = haystack.length - 1;
 
     do {
         let mid = lo + Math.floor((hi - lo) / 2);
-
-        console.log(mid);
 
         if (haystack[mid] === needle) {
             return true;
