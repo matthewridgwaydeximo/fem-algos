@@ -1,6 +1,6 @@
-function bsList(haystack: number[], needle: number): boolean {
+export default function binarySearchList(haystack: number[], needle: number): boolean {
     let lo = 0;
-    let hi = haystack.length - 1;
+    let hi = haystack.length;
 
     do {
         let mid = lo + Math.floor((hi - lo) / 2);
@@ -12,7 +12,7 @@ function bsList(haystack: number[], needle: number): boolean {
         } else {
             hi = mid - 1;
         }
-    } while (lo <= hi);
+    } while (lo < hi);
 
     return false;
 }
