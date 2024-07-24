@@ -1,2 +1,3 @@
-# Slides
-https://theprimeagen.github.io/fem-algos
+# Slides for the course 
+- https://theprimeagen.github.io/fem-algos
+
